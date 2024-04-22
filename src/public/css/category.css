@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.wrapper {
+    width: 70%;
+    display: flex;
+    /* border: 1px solid blue;  */
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-wrapper {
+    /* border: 1px solid red;  */
+    width: 40%;
+    text-align: center;
+}
+
+.form-wrapper input {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    margin-bottom: 10px;
+}
+
+.card h3{
+    line-height: 50px;
+}

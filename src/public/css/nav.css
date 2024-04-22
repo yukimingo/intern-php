@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cherry+Swash:700&display=swap');
+
+.navbar {
+    background-color: 	#B698FF;
+    /* background: #FCE53E; */
+    /* background: -moz-linear-gradient(left, #FCE53E 0%, #F48B4B 100%);
+    background: -webkit-linear-gradient(left, #FCE53E 0%,#F48B4B 100%);
+    background: linear-gradient(to right, #FCE53E 0%,#F48B4B 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FCE53E', endColorstr='#F48B4B',GradientType=1 ); */
+}
+
+.title {
+    font-weight: bold;
+    color: white;
+    font-family: 'Cherry Swash', cursive;
+}
+
+.nav-link {
+    font-weight: bold;
+    color: white;
+}

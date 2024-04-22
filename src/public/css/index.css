@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.form-wrapper {
+    width: 85%;
+    /* border: 1px solid red;  */
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto; 
+    text-align: center; 
+    display: flex;
+}
+
+.right-side {
+    /* border: 1px solid blue; */
+    width: 50%;
+}
+
+.left-side {
+    /* border: 3px solid black; */
+    width: 50%;
+}
+
+.card{
+    width: 90%; 
+    padding: 20px 0;
+    margin-right: 15px;
+}
+
+.confirmation p {
+    /* border: 1px solid orange; */
+    text-align: left;
+}
+
+input {
+    /* width: 25%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+select {
+    /* width: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea {
+    /* width: 50%; */
+    margin-left: auto;
+    margin-right: auto;
+}

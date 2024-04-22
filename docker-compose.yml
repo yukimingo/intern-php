@@ -1,0 +1,28 @@
+version: '3'
+
+services:
+  web:
+    container_name: intern_dev_web
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    ports:
+      - "8000:80"
+      - "443:443"
+    volumes:
+    - ./src:/var/www/html
+    - ./docker/apache/000-default.conf:/etc/apache2/sites-available/000-default.conf
+  mysql:
+    image: mysql:8.0
+    container_name: intern_dev_mysql
+    ports:
+      - "18080:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: intern_develops
+      MYSQL_USER: intern_develops_user
+      MYSQL_PASSWORD: password
+      TZ: ${TIME_ZONE:-Asia/Tokyo}
+    platform: linux/x86_64
+    volumes:
+      - ./docker/db/data:/var/lib/mysql
